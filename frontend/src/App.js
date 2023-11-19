@@ -10,7 +10,7 @@ import Product from './Pages/Product';
 import Footer from './Components/Footer/Footer';
 import men_banner from './Components/Assets/banner_mens.png'
 import women_banner from './Components/Assets/banner_women.png'
-import unisex_banner from './Components/Assets/unisex_img.webp'
+import unisex_banner from './Components/Assets/banner_kids.png'
 function App() {
   return (
     <div>
