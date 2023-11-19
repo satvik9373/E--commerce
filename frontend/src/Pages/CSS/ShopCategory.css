@@ -28,7 +28,8 @@
     justify-content: center;
     align-items: center;
     margin: 150px auto;
-    width: 233px auto;
+   width: max-content;
+   padding: 0px 64px;
     height: 69px;
     border-radius: 75px;
     background: #ededed;
