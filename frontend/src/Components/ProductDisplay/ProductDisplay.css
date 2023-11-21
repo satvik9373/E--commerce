@@ -41,24 +41,32 @@ font-weight: 700;
     color: #1c1c1c;
     font-size: 16px;
 }
-.productdisplay-right-prices{
+.productdisplay-right-prices {
     display: flex;
     margin: 40px 0px;
-    gap: 30px;
+    gap: 100px; /* Reduce the gap between prices */
     font-size: 24px;
     font-weight: 700;
 }
-.productdisplay-right-prices-old{
+
+.productdisplay-right-prices-old {
     color: #818181;
-    text-decoration: line-through !important;
+    text-decoration: line-through;
 }
-.productdisplay-right-prices-new{
+
+.productdisplay-right-prices-new {
     color: #ff4141;
 }
-.productdisplay-right-size h1{
+
+/* Add the following styles to align the new price with the old price */
+.productdisplay-right-prices-new::before {
+    color: #ff4141; /* Match the new price color */
+    font-weight: 700;
+}
+
+.productdisplay-right-size h1 {
     margin-top: 55px;
     color: #656565;
     font-size: 20px;
     font-weight: 600;
-
 }

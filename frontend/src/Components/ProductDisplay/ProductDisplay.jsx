@@ -28,7 +28,7 @@ import star_dull_icon from '../Assets/star_dull_icon.png'
     <p>(122)</p>
 </div>
 <div className="productdisplay-right-prices"></div>
-<div className="productdisplay-right-prices-old">${product.old_price}
+<div className="productdisplay-right-prices-old">${product.old_price}</div>
 <div className="productdisplay-right-prices-new">${product.new_price}
 </div>
 <div className="productdisplay-right-description">
@@ -42,7 +42,6 @@ import star_dull_icon from '../Assets/star_dull_icon.png'
     <div>L</div>
     <div>XL</div>
     <div>XXL</div>
-</div>
 </div>
 <button>ADD TO CART</button>
 <p className='productdisplay-right-category'><span>Category :</span>Women , T-shirt, Crop</p>
