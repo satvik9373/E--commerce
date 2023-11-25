@@ -16,3 +16,66 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+/* App.css */
+
+/* Default styles for larger screens */
+body {
+  font-family: 'Arial', sans-serif;  /* Set the default font for the entire app */
+  margin: 0;  /* Remove default margin */
+  padding: 0; /* Remove default padding */
+}
+
+/* Navbar styles */
+/* Add styles for your Navbar component here */
+
+/* Banner styles */
+.banner {
+  width: 100%;  /* Make banner images fill the entire width */
+  height: auto; /* Maintain the aspect ratio of the banner images */
+}
+
+/* ShopCategory styles */
+.shop-category {
+  display: flex;  /* Use flexbox for layout */
+  flex-wrap: wrap;  /* Allow items to wrap to the next line if the screen is not wide enough */
+  justify-content: space-around;  /* Space items evenly along the main axis */
+}
+
+/* Product styles */
+.product {
+  /* Add styles for your Product component here */
+}
+
+/* Footer styles */
+/* Add styles for your Footer component here */
+
+/* Media queries for smaller screens */
+@media only screen and (max-width: 768px) {
+  /* Adjust styles for smaller screens here */
+  
+  /* For example, you might want to make the banner images smaller */
+  .banner {
+    width: 100%;
+    height: auto;
+  }
+
+  /* You may need to adjust the layout for smaller screens in your components */
+  .shop-category {
+    flex-direction: column;  /* Change the direction of the flex container to column */
+    align-items: center;  /* Center items along the cross-axis */
+  }
+
+  /* Add more styles as needed for a better responsive design */
+}
+
+/* Media queries for even smaller screens */
+@media only screen and (max-width: 480px) {
+  /* Further adjust styles for even smaller screens here */
+
+  /* For example, you might want to make font sizes smaller */
+  body {
+    font-size: 14px;
+  }
+
+  /* Add more styles as needed for a better responsive design */
+}
