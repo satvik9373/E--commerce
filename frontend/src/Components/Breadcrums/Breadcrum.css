@@ -10,24 +10,3 @@
 }
 
 
-.breadcrum {
-    display: flex;
-    align-items: center;
-    font-size: 16px;
-    padding: 10px;
-  
-    /* Add styles for larger screens */
-    @media only screen and (min-width: 768px) {
-      font-size: 18px;
-    }
-  
-    /* Add styles for even larger screens */
-    @media only screen and (min-width: 1024px) {
-      font-size: 20px;
-    }
-  
-    /* Add more media queries as needed for different screen sizes */
-  }
-  
-  /* Add any other styles you need for smaller screens here */
-  
